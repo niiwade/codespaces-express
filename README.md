@@ -1,13 +1,69 @@
 # GitHub Codespaces ♥️ Express
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
+GET api/student
+{ 
+ name: Hiba Siru,
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+ course: Web Development,
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+ level: 100,
 
-To run this application:
+ createdAt: Tue, 23 Jul 2024 15:43:20 GMT 
 
-```
-npm start
-```
+}
+
+
+GET api/student/:id
+
+{ id: 1,
+
+ name: Nana Ama Linda,
+
+ course: Graphic Design,
+
+ level: 200,
+
+ createdAt: Tue, 23 Jul 2024 15:54:25 GMT
+
+}
+
+POST /api/student 
+{ id: 1,
+
+ name: Hiba Siru,
+
+ course: Web Development,
+
+ level: 100,
+
+ createdAt: Tue, 23 Jul 2024 16:00:49 GMT
+
+}
+
+
+PUT /api/student 
+{ id: 3,
+
+ name: Francisca Frimpong,
+
+ course: Weiding and Fabrication,
+
+ level: 300,
+
+ createdAt: Tue, 23 Jul 2024 16:10:02 GMT
+
+}
+
+ DELETE /api/student/:id
+{ id: 3,
+
+ name: Hiba Siru,
+
+ course: Web Development,
+
+ level: 100,
+
+ createdAt: Tue, 23 Jul 2024 16:35:08 GMT
+
+}
+
