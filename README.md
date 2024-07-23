@@ -1,13 +1,40 @@
 # GitHub Codespaces ♥️ Express
-
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
-
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
-
-To run this application:
-
-```
-npm start
-```
+GET /api/student 
+{   
+  "name": "araba",
+  "course": "animation",
+  "level": 1,
+  "createdAt": Tue, 23 Jul 2024 16:19:28 GMT
+}
+GET /api/student/:id
+{
+  "id": 10,
+  "name": "araba",
+  "course": "animation",
+  "level": 1,
+  "createdAt": Tue, 23 Jul 2024 15:57:42 GMT
+}
+POST /api/student
+{
+    "id": 11,
+  "name": "maame",
+  "course": "web development",
+  "level": 1,
+  "createdAt": Tue, 23 Jul 2024 15:36:35 GMT
+}
+PUT /api/student/:id
+{
+    "id": 10,
+  "name": "mends",
+  "course": "animation",
+  "level": 2,
+  "createdAt": Tue, 23 Jul 2024 15:44:55 GMT
+}
+DELETE /api/student/:id
+{
+     "id": 10,
+  "name": "araba",
+  "course": "animation",
+  "level": 1,
+  "createdAt": Tue, 23 Jul 2024 15:55:58 GMT
+}
