@@ -1,13 +1,50 @@
-# GitHub Codespaces ♥️ Express
+api/student
+{
+  "name": "Mark",
+  "course": "web dev",
+  "level": 100,
+  "createdAt": "Tue, 23 Jul 2024 16:11:08 GMT"
+}
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
+api/student/id
+{
+  "id": 1,
+  "name": "Agnes",
+  "course": "web dev",
+  "level": 100,
+  "createdAt": "Tue, 23 Jul 2024 16:15:57 GMT "
+}
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+ 
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+api/student
+{
+  "id": 2,
+  "name": "Ophelia",
+  "course": "web dev",
+  "level": 100,
+   "createdAt": "Tue, 23 Jul 2024 16:16:20 GMT "
+}
 
-To run this application:
 
-```
-npm start
-```
+
+api/student/id
+{
+  "id": 3,
+  "name": "Ernest",
+  "course": "web dev",
+  "level": 100,
+   "createdAt": "Tue, 23 Jul 2024 16:16:48 GMT "
+}
+
+
+
+
+api/student/id
+{
+  "id": 4,
+  "name": "Anita",
+  "course": "web dev",
+  "level": 100,
+   "createdAt": " Tue, 23 Jul 2024 16:17:01 GMT"
+}
