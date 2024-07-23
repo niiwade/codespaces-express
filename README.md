@@ -1,13 +1,42 @@
-# GitHub Codespaces ♥️ Express
+GET /api/students
+        {
+          name:'Fatima',
+          class:'web dev',
+          lastname: 'Guindo',
+          level: '100',
+        }
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
+GET /api/students/:id
+        {
+          id: 1, 
+          name:'Fatima',
+          class: 'web dev',
+          lastname: 'Guindo',
+          level: '100',
+        }
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+POST /api/students
+        {
+            id: 2, 
+            name: 'Hawa',
+            class: 'web dev',
+            lastname: 'Guindo',
+            level: '100',
+         }
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+PUT /api/student/:id
+       { 
+              id: 1, 
+              name: 'khadijah', 
+              class: 'web dev', 
+              lastname: 'Guindo'
+              level: '100',
+          }
 
-To run this application:
-
-```
-npm start
-```
+DELETE /api/student/:id
+       {
+               id: 1, 
+               names: 'khadijah', 
+               class: 'web dev', 
+               Lastname: 'Guindo',
+          }
